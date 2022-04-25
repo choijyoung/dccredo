@@ -54,7 +54,13 @@ addTwoNumbers(0, 0) //=> 0
 addTwoNumbers('Hello', 5) //=> NaN
 -----------------------------------------------------------------------------*/
 // Your solution for 02-addTwoNumbers here:
-
+let addTwoNumbers = (num1, num2) => {
+	if (isNaN(num1) || isNaN(num2)){
+		return NaN
+	} else {
+		return num1 + num2;
+	}
+}
 
 /*-----------------------------------------------------------------------------
 Challenge: 03-sumNumbers

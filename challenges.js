@@ -80,6 +80,13 @@ sumNumbers([2, 10, -5]) //=> 7
 sumNumbers([]) //=> 0
 -----------------------------------------------------------------------------*/
 // Your solution for 03-sumNumbers here:
+function sumNumbers(arr){
+	let sum = 0
+	for (let i = 0; i < arr.length; i++){
+		sum += arr[i]
+	}
+	return sum
+}
 
 
 /*-----------------------------------------------------------------------------
